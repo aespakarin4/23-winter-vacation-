@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main() {
+	int a;
+	int b;
+	printf("수학점수를 입력하세요:");
+	scanf_s("%d", &a);
+	printf("영어점수를 입력하세요:");
+	scanf_s("%d", &b);
+	printf("\n두 과목의 총합은 %d입니다.", a + b);
+
+	
+}
