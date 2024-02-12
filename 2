@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+void main() {
+	int a;
+	int b;
+	int c;
+	int d;
+	int e;
+	
+	for (int i = 1; i <= 5; i++){
+		printf("%d번째 학생의 수학성적:",i);
+		if (i == 1) {
+			scanf_s("%d", &a);
+		}
+		else if (i == 2) {
+			scanf_s("%d", &b);
+		}
+		else if (i == 3) {
+			scanf_s("%d", &c);
+		}
+		else if (i == 4) {
+			scanf_s("%d", &d);
+		}
+		else if (i == 5) {	
+			scanf_s("%d", &e);
+		}
+	}
+	int sum = 0;
+	float abg = 1;
+	sum = a + b + c + d + e;
+	abg = sum / 5;
+	printf("\n수학성적의 평균은 %.2f점입니다.", abg);
+}
